@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: panda-jenkins-site
+    restart: always
+    environment:
+      JAVA_OPTS: "-Xms1024m -Xmx2048m"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
