@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Я той, хто вам потрібний!!!))</h1>"
+    return "<h1>Я той, хто вам потрібний!!_!))</h1>"
 
 def open_browser():
     webbrowser.open("http://localhost:5000")
