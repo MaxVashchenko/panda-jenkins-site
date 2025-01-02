@@ -32,3 +32,4 @@
    в себе локально на ПК потрно пропистаи локальні домена в host 
    
 готовий показати все в себе на своїй інфраструктурі ТГ seventist 
+https://drive.google.com/drive/folders/1ADC-Y7k7ALc3WbupiPkbn4ld_r76BylE?usp=drive_link - тут проект 
